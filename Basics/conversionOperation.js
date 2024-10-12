@@ -51,8 +51,49 @@ true => 1;false => 0
 // "" => false
 // "hitesh" => true
 
-let score =33;
-console.log(typeof score);// number
-let valueIsString = String(score)
-console.log(valueIsString)// 33
-console.log(typeof valueIsString);//string
+// let score =33;
+// console.log(typeof score);// number
+// let valueIsString = String(score)
+// console.log(valueIsString)// 33
+// console.log(typeof valueIsString);//string
+
+// **********************************Operation*****************************************
+
+// let value =33
+// let negValue = -value
+// console.log(negValue);//-33
+
+// console.log(3+4)//7
+// console.log(4-2)//2
+// console.log(3*5)//15
+// console.log(5/3)//1.666666
+// console.log(2**3)//8
+// console.log(2%3)//2
+
+
+
+// let str1 ="Monu"
+// let str2 = " Gupta"
+// let str3 = str1 + str2
+// console.log(str3)
+
+console.log("1" + 2)//12
+console.log("2" + 2 + 2);//222
+console.log(2 + 2 + "3")//43
+
+console.log(true)//true
+console.log(+true)//1
+console.log(+"")//0
+
+let num1,num2,num3;
+
+num1 = num2 =num3 = 2+2
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter)//101
+console.log(gameCounter++)//101
+console.log(++gameCounter)//103
+
+
+
