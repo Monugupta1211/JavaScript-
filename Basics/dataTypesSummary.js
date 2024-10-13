@@ -11,7 +11,7 @@ let userEmail;  // undefined;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(typeof id)
+//console.log(typeof id)
 
 // console.log(id === anotherId)// false
 
@@ -26,18 +26,47 @@ console.log(typeof id)
 
 // Array
 const heros = ["shaktiman", "Amitabh B", "Ajay Devgon"]
-console.log(typeof heros)//object 
+//console.log(typeof heros)//object 
 
 // Object
 let myObj = {
     name:"Monu Gupta",
     age:22,
 }
-console.log(typeof myObj)//object
+// console.log(typeof myObj)//object
 
-// function
+//  function
 
-const myFunction = function(){
-    console.log("Hello World");
+// const myFunction = function(){
+//     console.log("Hello World");
+// }
+// console.log(typeof myFunction)//function
+
+
+
+
+
+//   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive): Give the copy of the  varible
+
+let value1 = "Hello"
+let value2 = value1
+
+value2 = "Hello students"
+
+console.log(value1)
+console.log(value2)
+
+//Heap (Non-Primitive): Give the reference of the variable
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
 }
-console.log(typeof myFunction)//function
+
+let userTwo = userOne;
+
+userTwo.email="monu@google.com"
+console.log(userOne)
+console.log(userTwo)
