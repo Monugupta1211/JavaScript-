@@ -54,3 +54,4 @@ console.log("B ",arr)
 let myarr2 = arr.splice(1,4,90,91,92,93)
 console.log(arr)
 console.log("C ",myarr2)
+
